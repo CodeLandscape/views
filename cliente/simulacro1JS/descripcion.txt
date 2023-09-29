@@ -1,0 +1,13 @@
+Melissandre profecico, tiene varios dados
+
+tiene dados de 4-20 caras. tira 2 dados y hace la prediccion en funcion de lo que digan los dados
+
+cual es el numero o numeros MAS probables o cual es el numero o numeros MENOS probables
+
+
+EJ
+
+4,6 caras=> 5,6,7 mas probable y 2,10 menos 
+
+
+
