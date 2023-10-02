@@ -1,0 +1,177 @@
+/* Realizado por Luis Tabares */
+
+body{
+    width:1280px;       
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(113, 206, 105);
+}
+/* con esto ajustamos la reslucion deseada,ajustamos margenes para centrar todo el contenido y pintamos el fondo */
+
+nav{
+    background-color: rgb(0, 110, 255);
+}
+/* color de fondo del header */
+
+nav li{
+    display: inline-block;
+    margin-left:100px;
+}
+/* ponemos las viñetas en linea y las separamos entre si */
+div h1{
+    margin-top: 100px;
+    color:bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*desplazar el h1 de los div,cambiar color de la letra,y la fuente*/
+li{
+    list-style-type: square;
+}
+/* damos estilo a la viñeta del indice del contenido*/
+
+nav li:hover{
+    background-color: chocolate;
+    transition: 0.7s;
+    padding-left: 20px;
+}
+/* damos estilo a cuando el usuario pasa el raton por las viñetas*/
+
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(206, 200, 170);
+}
+/* estilamos el menu del header */
+
+aside{
+    margin-top: 100px;
+}
+/* separamos el aside del menu  por arriba */
+
+div aside{
+    width: 200px;
+    height: 220px;
+    background-color: #3eb8dd;
+    border-radius: 40px;
+    padding: 10px;
+}
+/*estilo para la caja que contiene el indice de contenidos.aside*/
+aside h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*centrar el encabezada h2*/
+aside li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+article{
+    margin-top:100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* damos estilo a la fuente y separamos del aside por arriba */
+
+article img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 520px;
+    display: inline-block;
+}
+/* ponemos en linea las imagenes, le damos tamaño, redondeamos los bordes y alejamos entre si las imagenes */
+
+
+.fondodiv{
+    background-color: rgba(245, 245, 220, 0.26);
+}
+/* damos fondo a la caja de div de los parrafos  */
+
+span{
+    font-weight:bolder;
+}
+/* estilo a palabras sueltas */
+figure{
+    border: 4px #3eb8dd solid;
+    margin: auto;
+}
+
+figcaption{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/*damos estilo al footer con un color de fondo, de letra, padding y alineando al centro*/
+
+.pie {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*atributos del footer*/
+
+table{
+    border-collapse: collapse;
+    margin:0 auto;
+    width: 800px;
+    height: 450px;
+    background-color: cornsilk;
+}
+/*dimensionar la tabla,centrarla, juntar los bordes y colorear el fondo de la misma*/
+
+td, th{
+    border: 2px solid #344ddb;
+    text-align: center;
+    font-size: larger;
+}
+/*pintar los bordes de las celdas, tanto encabezados como celdas normales*/
+
+.pintarceldas{
+    background-color: rgb(203, 221, 115);
+    font-weight: bolder;
+    color:crimson;
+}
+form{
+    margin-top:100px;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 30px;
+}
+/*cambiar color de letras,fondo y peso ed la fuente  */
+form select{
+    color: brown;
+    font-size: 25px;
+}
+/*cambiar color de la fuente al select dentro del form*/
+form input[type=text]
+{
+    width: 120px;
+}
+/*dimensionar el cuadro de texto para introducir los caracteres*/
+
+#cabecera{
+    width: 1280px;
+    height: 400px;
+}
+div p{
+    font-size: x-large;
+    font-weight: bold;
+    color: lemonchiffon;
+    background-color: black;
+    font-style: oblique;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*estilar el parrafo de contenido*/

@@ -1,0 +1,113 @@
+<!-- Luis Tabares -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pag2</title>
+    <link rel="stylesheet" href="medioambiente.css">
+</head>
+<style>
+    body {background-image: url("imagenes/fondo.jpg");
+    background-size: cover;}
+</style>
+<body>
+    <header>
+        <img src="imagenes/cabecera.jpg" id="cabecera"/>
+    </header>
+    <nav>
+        <ol>
+            <li>
+                <a href="index.html">Información sobre el impacto ambiental</a>
+            </li>
+            <li>
+                <a href="pag2.html">Datos y Encuesta Final</a>
+            </li>
+        </ol>
+    </nav>
+    <article>
+        <section>
+            <div>
+                <table>
+                    <tr>
+                        <th colspan="3">Efectos del consumo online</th>
+                    </tr>
+                    <tr>
+                        <td class="pintarceldas">
+                            Contaminación
+                        </td>
+                        <td colspan="2">
+                            Amazon, por ejemplo, emitió <span>44,40 millones de toneladas de dióxido de carbono</span> en 2018<br/>La contaminación del aire acaba con la vida de
+                            <span>millones de personas al año.</span><br/>La compra física tiene un impacto de un 7% menor al de la compra por internet en términos de huella de carbono
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pintarceldas">
+                            Emisiones de vehiculos de reparto
+                        </td>
+                        <td colspan="2">
+                            Al aumentar las compras por la red también <span>aumentaba el tiempo de viaje, los retrasos y las emisiones de los vehículos</span> de toda la red de transporte.<br/>
+                            La mejor opción sigue siendo dirigirse a lcomercio local de barrio a pie, son todo beneficios.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pintarceldas">
+                            Embalajes excesivos
+                        </td>
+                        <td colspan="2">
+                            Estos residuos representan el <span>30% de los desechos sólidos de Estados Unidos</span>, según la Agencia de Protección Ambiental del país
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pintarceldas">
+                            Dispositivos conectados
+                        </td>
+                        <td colspan="2">
+                            También hay que tener en consideración el gran volumen de emisiones de la red, que mantiene <span>cientos de miles de potentes ordenadores encendidos las 24 horas del día</span> todos los días del año.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div>
+                <form action="datos.php" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" required></input></br>
+                    <label for="ops">Ciudad de Origen</label>
+                    <select name="ciudad">
+                        <option value="Badajoz">Badajoz</option>
+                        <option value="Caceres">Caceres</option>
+                        <option value="Merida">Merida</option>
+                    </select>
+                    </br>
+                    <label for="ofertas">¿Quieres recibir ofertas de voluntariado?</label>
+                    <input type="radio" name="ofertas" value="Acepto las condiciones">Si</input>
+                    <input type="radio" name="ofertas" value="No acepto las condiciones">No</input>
+                    </br>
+                    <input type="radio" name="genero" value="hombre">Hombre
+                    <input type="radio" name="genero" value="mujer">Mujer
+                    <br/>
+                    <input type="checkbox" name="legal" value="terminosaceptados">Acepto los terminos legales
+                    <br/>
+
+<!-- cuando quieres mandar varios valores en un formulario, hay que declarar un array en el name del checkbox -->
+                    <input type="checkbox" name="interes[]" value="reciclar" />
+                    Reciclaje
+                    <input type="checkbox" name="interes[]" value="reutilizables" />
+                    <label for="reciclar">Reutilizables</label>
+                    <input type="checkbox" name="interes[]" value="desechar" />
+                    <label for="reciclar">Desechar</label>
+                    <br/>
+                    <input type="submit"/>
+                </form>
+            </div>
+        </section>
+    </article>  
+</body>
+<footer>
+    <div class="pie">
+        <p>&copy; 2023 Colabora con el Medio Ambiente</p>
+    </div>
+</footer>
+</html>
