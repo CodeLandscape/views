@@ -1,0 +1,31 @@
+div{
+    width: 200px;
+    height: 140px;
+    border: solid 2px;
+}
+
+#profe{
+    background-color: blue;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    top:600px;
+}
+
+#uno{
+    background-color: antiquewhite;
+    /* position: relative; */
+    
+}
+
+#dos{
+    background-color: brown;
+    /* position: relative; */
+    top: 50px;
+}
+
+#tres{
+    background-color: aqua;
+    /* position: relative; */
+    top: 70px;
+}

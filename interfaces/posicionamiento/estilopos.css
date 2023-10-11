@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 140px;
+    border: solid 2px;
+}
+
+#uno{
+    background-color: antiquewhite;
+}
+
+#dos{
+    background-color: brown;
+}
+
+#tres{
+    background-color: aqua;
+}
+
+#profe{
+    background-color: blue;
+}

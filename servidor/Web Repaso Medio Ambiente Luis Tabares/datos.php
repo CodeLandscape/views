@@ -17,4 +17,3 @@
     foreach($intereses as $valor)
         echo "<br/>Tu: ".$valor;
 ?>
-
